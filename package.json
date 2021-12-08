@@ -1,0 +1,26 @@
+{
+  "name": "etherbait",
+  "version": "0.0.1",
+  "description": "",
+  "main": "etherbait.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSmall/etherbait.git"
+  },
+  "author": "github.com/OSmall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSmall/etherbait/issues"
+  },
+  "homepage": "https://github.com/OSmall/etherbait#readme"
+}
