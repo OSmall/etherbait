@@ -15,7 +15,7 @@ accounts = web3.eth.get_accounts()
 
 def main():
     account = accounts[1]
-    print(account, weth.functions.balanceOf(account).call())
+    print(account, Web3.fromWei(weth.functions.balanceOf(account).call(), 'ether'))
 
     # Check if ether balance has changed
     # if so, transfer all weth and eth out of the wallet
